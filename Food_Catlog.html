@@ -1,72 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Menu</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-1</title>
     <style>
-    nav {
-        background-color: #333;
-        overflow: hidden;
-    }
-    
-    nav a {
-        text-decoration: none;
-        padding: 10px;
-        float: left;
-        color: white;
-    }
-    h4 {
-        font-family: 'Times New Roman', Times, serif;
-    }
-    div {
+      .bgcolor {
+        background-color: darkgray;
+        margin: 0px;
+      }
+      .center {
         text-align: center;
-    }
-        a:hover {
+      }
+      .size {
+        width: 65%;
+      }
+      .navcolor {
         background-color: black;
-    }
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      a {
+        text-decoration: none;
+      }
+      .header {
+        color: white;
+        padding: 20px;
+      }
+      .bookmark {
+        color: black;
+      }
+      .header:hover {
+        background-color: grey;
+      }
     </style>
-</head>
-<body>
-    <nav>
-        <a href="#" target="_blank" rel="noopener noreferrer"><h4>Index</h4></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><h4>Food</h4></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><h4>About</h4></a>
+  </head>
+  <body class="bgcolor">
+    <nav class="navcolor">
+      <a class="header" href="#">Index</a>
+      <a class="header" href="#">Food</a>
+      <a class="header" href="#">About</a>
     </nav>
-    <h1>Top 5 favourite foods</h1>
+    <h2>Top 5 favourite foods</h2>
     <ul>
-        <li>
-            <a href="#Biryani">Biryani</a>
-        </li>
-        <li>
-            <a href="#Cake">Cake</a>
-        </li>
-        <li>
-            <a href="#Pizza">Pizza</a>
-        </li>
-        <li>
-            <a href="#Ice Cream">Ice Cream</a>
-        </li>
-        <li>
-            <a href="#Chicken Wings">Chicken Wings</a>
-        </li>
+      <li><a class="bookmark" href="#Biryani">Biryani</a></li>
+      <li><a class="bookmark" href="#Cake">Cake</a></li>
+      <li><a class="bookmark" href="#Pizza">Pizza</a></li>
+      <li><a class="bookmark" href="#Choupsey">Choupsey</a></li>
+      <li><a class="bookmark" href="#Wings">Wings</a></li>
     </ul>
-    <div id="Biryani">
-        <img src="https://www.tbsnews.net/sites/default/files/styles/very_big_1/public/images/2021/03/19/biriyani.jpg?itok=fF26eFzh" alt="This is a picture of Biryani" width="80%">
-        <h3>Biryani</h3>
-    <div id="Cake">
-        <img src="https://media.istockphoto.com/photos/close-up-cross-section-of-fresh-rainbow-layer-cake-at-food-market-picture-id1132472016" alt="This is a picture of Cake" width="80%">
-        <h3>Cake</h3>
-    <div id="Pizza">
-        <img src="https://lh3.googleusercontent.com/GxulkfrfyZBuMGAUl7dOp2aQ6BSzZbE98D3LB0Tg2Mw_qy42xVBjabTy_PTBYl2-TCjnInl6LBDrjENSOTVD3q9vvaY=w512" alt="This is a picture of Pizza" width="80%">
-        <h3>Pizza</h3>
-    <div id="Ice Cream">
-        <img src="https://images.hindustantimes.com/img/2021/11/06/550x309/e276cbaa-3e0e-11ec-a444-2c6d4ea9da0b_1636192223278.jpg" alt="This is a picture of Ice Cream" width="80%">
-        <h3>Ice Cream</h3>
-    <div id="Chicken Wings">
-        <img src="https://images.aws.nestle.recipes/resized/1a69f85aabec474eb02d4c875c0de560_iStock-835903320_1500_700.jpg" alt="This is a picture of Chicken Wings" width="80%">
-        <h3>Chicken Wings</h3>
+    <div class="center" id="Biryani">
+      <img
+        class="size"
+        src="https://www.onmanorama.com/content/dam/mm/en/food/features/images/2021/2/3/biryani.jpg.transform/onm-articleimage/image.jpg"
+        alt="Biryani"
+      />
+      <p>Biryani</p>
     </div>
-</body>
+    <div class="center" id="Cake">
+      <img
+        class="size"
+        src="https://crustandbeyond.com/pickup/wp-content/uploads/sites/2/2017/10/cake_Chocolate_01.jpg"
+        alt="Cake"
+      />
+      <p>Cake</p>
+    </div>
+    <div class="center" id="Pizza">
+      <img
+        class="size"
+        src="https://d1dxs113ar9ebd.cloudfront.net/225batonrouge/2017/02/litpizza.jpg"
+        alt="Pizza"
+      />
+      <p>Pizza</p>
+    </div>
+    <div class="center" id="Choupsey">
+      <img
+        class="size"
+        src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_1200,h_800/https://norecipes.com/wp-content/uploads/2017/04/chop-suey-012-1200x800.jpg"
+        alt="Choupsey"
+      />
+      <p>Choupsey</p>
+    </div>
+    <div class="center" id="Wings">
+      <img
+        class="size"
+        src="https://anchorbar.com/wp-content/uploads/2019/08/AdobeStock_51495905.jpeg"
+        alt="Wings"
+      />
+      <p>Wings</p>
+    </div>
+  </body>
 </html>
+
